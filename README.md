@@ -17,5 +17,5 @@ Check AWS IP Range by specific region
 ## Usage
 
 ```
-awsiprange.py
+python awsiprange.py
 ```
