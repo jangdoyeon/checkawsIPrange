@@ -1,3 +1,9 @@
+"""
+Get AWS IP Range by region or service from 
+https://ip-ranges.amazonaws.com/ip-ranges.json
+
+And Notification with Teams Webhook
+"""
 __author__ = "dyjang"
 
 import requests
@@ -82,6 +88,7 @@ def main():
     print(
         f'[-] Get filtered A class IP prefix list : {filtered_acls_pref_ip_list}')
 
+    # teams message
     message = {
         "themeColor": "0076D7",
         "summary": "AWS IP Range Checker",
