@@ -4,7 +4,7 @@ https://ip-ranges.amazonaws.com/ip-ranges.json
 
 And Notification with Teams Webhook
 """
-__author__ = "dyjang"
+__author__ = "doyeonjang"
 
 import requests
 import config
